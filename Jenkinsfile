@@ -21,7 +21,7 @@ pipeline {
         }
                 stage('Docker') {
             steps {
-                echo 'Image 'steep'
+                echo 'Image steep'
             }
         }
     }
